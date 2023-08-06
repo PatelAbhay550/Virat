@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap" rel="stylesheet">
+    <title>Virat Kohli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <h2>Virat Kohli</h2>
+            <div class="elem">
+                <li class="li"><a id="bn" href="#knocks">Best Knocks</a></li>
+                <li id="sti" onclick="document.getElementById('stats').scrollIntoView();">Stats</li>
+                <li class="li">Latest</li>
+                <p id="darkn">Light</p>
+                <i id="toggle" class="ri-toggle-line" onclick="dark()"></i>
+            </div>
+            <div class="nmnu">
+                <i class="ri-menu-3-line" id="mnnu" onclick="show()"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="home">
+        <div class="sec">
+            <div class="left">
+                <h2>The Best Of <span>Virat</span> is here!</h2>
+                <p class="lc">Get the everything about virat, just one site. We know you love him so as we.</p>
+                <div class="btn">
+                    <button onclick="document.getElementById('knocks').scrollIntoView();">Best Knocks<i
+                            class="ri-arrow-down-line"></i></button>
+                </div>
+            </div>
+            <div class="right"><img src="steptodown_com430099-transformed.png" alt="" data-aos="fade-up"
+                    data-aos-offset="4" data-aos-delay="5" data-aos-duration="1000" data-aos-easing="ease"
+                    data-aos-mirror="false" data-aos-once="true" data-aos-anchor-placement="top-center"></div>
+        </div>
+    </div>
+    <div class="knocks" id="knocks">
+        <div class="hd">
+            <h1 class="h1k">Top Knocks</h1>
+            <div class="p pk"><mark style="background-color: red;color: white;">Click</mark> and see some famous knocks
+                by 👑</div>
+            <div class="select">
+                <select id="format" name="format" size="4">
+                    <option value="Tests" selected>Tests</option>
+                    <option value="ODIs" id="ODIs">ODIs</option>
+                    <option value="T20Is">T20Is</option>
+                    <option value="IPL">IPL</option>
+                </select>
+            </div>
+            <div class="ims">
+                <div class="cont1 pofi"
+                    style="width: 100%;overflow: hidden;width:350px;height: 400px;background-color: rgba(0, 255, 255, 0.422);">
+                    <iframe id="vid1" width="560" height="100%"
+                        src="https://www.youtube.com/embed/rf6OKIsbCWo?controls=0" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen autoplay></iframe>
+
+                    <p id="cont1p1">141 v Australia, Adelaide, 2014</p>
+                </div>
+                <div class="cont2 pofi" style="width: 100%;overflow: hidden;width:350px;height: 400px;">
+                    <iframe id="vid2" width="560" height="100%"
+                        src="https://www.youtube.com/embed/e4teGuBHUsE?controls=0&amp;start=60"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p id="contp2">169 v Aus, Melbourne 2014</p>
+                </div>
+                <div class="cont3 pofi"
+                    style="width: 100%;overflow: hidden;width:350px;height: 400px;background-color: rgba(255, 0, 0, 0.464);">
+                    <iframe id="vid3" width="560" height="100%"
+                        src="https://www.youtube.com/embed/8pXDBIzGZvQ?controls=0&amp;start=60"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p id="contp3">235 v England, Mumbai, 2016</p>
+                </div>
+                <div class="nxt">
+                    <div class="cont4 pofi"
+                        style="width: 100%;overflow: hidden;width:350px;height: 400px;background-color: rgba(98, 255, 0, 0.42);">
+                        <!-- <iframe id="vid4" width="560" height="100%"
+                            src="https://www.youtube.com/embed/FcgH2DE4dRQ?controls=0&amp;start=60"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe> -->
+                        <p id="contp4">104* vs Sri Lanka, Kolkata, 2017</p>
+                        <div>
+                            <div class="cont5 pofi"
+                                style="width: 100%;overflow: hidden;width:350px;height: 400px;background-color: rgba(165, 42, 42, 0.481);">
+                                <p id="contp5">153 v South Africa, Centurion, 2018</p>
+                            </div>
+                            <div class="cont6 pofi"
+                                style="width: 100%;overflow: hidden;width:350px;height: 400px;background-color: rgba(17, 0, 255, 0.431);">
+                                <p id="contp6">149 v England, Edgbaston, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="snam">STATS</div>
+        <div class="stat" id="stats">
+            <h2>VIRAT KOHLI</h2>
+            <p class="sp">STATS</p>
+            <div class="btns">
+                <style type="text/css">
+                    .tg {
+                        border-collapse: collapse;
+                        border-color: #ccc;
+                        border-spacing: 0;
+                        border-style: solid;
+                        border-width: 1px;
+                    }
+
+                    .tg td {
+                        background-color: #fff;
+                        border-color: #ccc;
+                        border-style: solid;
+                        border-width: 0px;
+                        color: #333;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg th {
+                        background-color: #f0f0f0;
+                        border-color: #ccc;
+                        border-style: solid;
+                        border-width: 0px;
+                        color: #333;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        font-weight: normal;
+                        overflow: hidden;
+                        padding: 10px 5px;
+                        word-break: normal;
+                    }
+
+                    .tg .tg-c6q4 {
+                        font-family: inherit;
+                        text-align: left;
+                        vertical-align: top
+                    }
+
+                    .tg .tg-rjs9 {
+                        font-family: inherit;
+                        font-size: 100%;
+                        text-align: left;
+                        vertical-align: top
+                    }
+                </style>
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <th class="tg-c6q4"></th>
+                            <th class="tg-c6q4">TEST</th>
+                            <th class="tg-c6q4">ODI</th>
+                            <th class="tg-c6q4">T20I</th>
+                            <th class="tg-c6q4">IPL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tg-c6q4">MATCHES</td>
+                            <td class="tg-c6q4">111</td>
+                            <td class="tg-c6q4">275</td>
+                            <td class="tg-c6q4">115</td>
+                            <td class="tg-c6q4">237</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">INNINGS</td>
+                            <td class="tg-c6q4">187</td>
+                            <td class="tg-c6q4">265</td>
+                            <td class="tg-c6q4">107</td>
+                            <td class="tg-c6q4">229</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">RUNS</td>
+                            <td class="tg-c6q4">8676</td>
+                            <td class="tg-c6q4">12898</td>
+                            <td class="tg-c6q4">4008</td>
+                            <td class="tg-c6q4">7263</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">AVG</td>
+                            <td class="tg-c6q4">49.3</td>
+                            <td class="tg-c6q4">57.3</td>
+                            <td class="tg-c6q4">52.7</td>
+                            <td class="tg-c6q4">37.2</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">SR</td>
+                            <td class="tg-c6q4">55.2</td>
+                            <td class="tg-c6q4">93.6</td>
+                            <td class="tg-c6q4">138</td>
+                            <td class="tg-c6q4">130</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">100</td>
+                            <td class="tg-c6q4">29</td>
+                            <td class="tg-c6q4">46</td>
+                            <td class="tg-c6q4">1</td>
+                            <td class="tg-c6q4">7</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-c6q4">50s</td>
+                            <td class="tg-c6q4">29</td>
+                            <td class="tg-c6q4">65</td>
+                            <td class="tg-c6q4">37</td>
+                            <td class="tg-c6q4">50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
